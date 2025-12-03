@@ -1,5 +1,5 @@
-cabal-version:      2.4
-name:               aoc2023
+cabal-version:      3.0
+name:               aoc2025
 version:            0.1.0.0
 
 data-dir: data
@@ -22,7 +22,7 @@ executable aoc2023
 
   -- Modules included in this executable, other than Main.
   other-modules:
-    Paths_aoc2023
+    Paths_aoc2025
     Day01
     Day02
     Day03
@@ -35,25 +35,12 @@ executable aoc2023
     Day10
     Day11
     Day12
-    Day13
-    Day14
-    Day15
-    Day16
-    Day17
-    Day18
-    Day19
-    Day20
-    Day21
-    Day22
-    Day23
-    Day24
-    Day25
 
   autogen-modules:
-    Paths_aoc2023
+    Paths_aoc2025
 
   build-depends:
-      base ^>=4.17.2.0
+      base >=4.17.2.0
     -- -- Package `split`: Functions for splitting lists.
     -- , split ^>=0.2.4
     -- -- Package `containers`: Brings maps, sets, trees, graphs, sequences.
