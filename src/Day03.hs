@@ -1,6 +1,6 @@
 module Day03 where
 import Data.Char (digitToInt)
-import Data.List (elemIndex, intercalate)
+import Data.List (elemIndex)
 
 day03 :: IO ()
 day03 = do
